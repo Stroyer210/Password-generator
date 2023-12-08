@@ -7,7 +7,7 @@ var passwordGenerated = [];
 var passwordLength = 0;
 var newPassword = [];
 
-//Made some errays here
+//Made some arrays here
 var upper = upperLetters.split(" ");
 var lower = lowerLetters.split(" ");
 var number = numbers.split(" ");
@@ -20,12 +20,17 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   newPassword = [];
   passwordGenerated = [];
-  passwordLength = prompt(
+  passwordLength = Number(prompt(
     "Please enter the number of characters for your password:",
     "9"
-  );
-  if (passwordLength == null || passwordLength == "") {
-    alert("User cancelled the prompt.");
+  ));
+  if (
+    Boolean(passwordLength) == false ||
+    passwordLength == null ||
+    passwordLength == ""
+  ) {
+    alert("Write a number between 8 and 128.");
+    writePassword();
   } else if (passwordLength < 8) {
     alert("Your number has to be bigger than 8");
     writePassword();
@@ -35,8 +40,7 @@ function writePassword() {
   } else if (8 <= passwordLength <= 128) {
     generatePassword();
   } else {
-    alert("It has to be a number.");
-    writePassword();
+    alert("User cancelled the prompt.");
   }
 
   var passwordText = document.querySelector("#password");
