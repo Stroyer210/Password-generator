@@ -3,26 +3,36 @@
 
 ## Description  :bookmark_tabs:
 
-write description here
+This project was really good because it made me use a lot of JavaScript code that is really useful for any kind of project; code such "Functions", "for loop", etcetera. I knew it was a really important project so I spent a lot of time trying to understand what kinda of code to use and type until I finally found it, it really made me think but after I created a pseudo code, it was so much easier. 
+The functionality of the application is to create a random password according to the items that we want; like uppercase, numbers, and whatnot. Finally, one of the things I learned was to actually create a pseudo code and work through it; after that the code doesn't seem that difficult.
 
 ## Installation :computer:
 
-write how to work the project
-You are able to see my project in two different ways, depending on what you are looking for:
+You are able to see the password generator in two different ways, depending on what you are looking for:
 
- 1. If you only want to see my portfolio, you can go to this URL: https://stroyer210.github.io/Portfolio/
- 2. If you want to see my code, you have my repository's folder on top, plus all the documents, such HTML, CSS and images.
+ 1. If you only want to try the actual application, you can go to this URL: https://stroyer210.github.io/Password-generator/
+ 2. If you want to see my code, you have my repository's folder on top, plus all the documents, such HTML, CSS and JavaScript.
 
 ## Usage :bar_chart:
 If you are unable to open the URL, I attached a screenshot of it below:
-    ![This is a screenshot of how the website looks on top.](Assets/Images/screenshot1.png)
+
+    ![This is a screenshot of how the application looks like.](assets/images/password1.png)
     ---
+    ![This is a screenshot of when it is asking the questions for the password.](assets/images/password2.png)
+    ---
+    ![This is a screenshot of the final password.](assets/images/password3.png)
     
-As you can see, there is a little menu on the top-right of the website, so you can click any of them and it will take you to the respective section. If you go to my work, you can click on some of the projects I have done and it will take you to the deployed website, and also on the bottom you can find some links so you can contact me.
+After you open the application, you will have to click the button that says "Generate Password", and then it is gonna ask you how long you want your password, then it is gonna ask you if you want uppercase, lowercase, numbers and symbols and finally it is gonna generate a random password with the group of characters that you asked for.
 
 ## Credits :email:
 
-I am gonna list all the links I used to make this project really good.
+List of all the links that made me succeed this project:
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+- https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_isnan2
+- https://www.w3schools.com/js/js_if_else.asp#:~:text=Conditional%20Statements,-Very%20often%20when&text=Use%20if%20to%20specify%20a,the%20first%20condition%20is%20false
+- https://sabe.io/blog/javascript-check-if-two-strings-not-equal
+- https://dev.to/gaelgthomas/array-to-string-without-commas-in-javascript-4mg6#:~:text=In%20JavaScript%2C%20all%20arrays%20have,all%20the%20array%20elements%20concatenated.
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
 
 
 ## License :memo:
