@@ -1,4 +1,4 @@
-# Password-generator
+# Password Generator
 ![Static Badge](https://img.shields.io/badge/HTML-%23E86B20?style=for-the-badge&logo=html5&labelColor=black) ![Static Badge](https://img.shields.io/badge/CSS-%2388C8EB?style=for-the-badge&logo=css3&logoColor=%235BB4EB&labelColor=black) ![Static Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&labelColor=black)
 
 ## Description  :bookmark_tabs:
@@ -15,12 +15,13 @@ You are able to see the password generator in two different ways, depending on w
 
 ## Usage :bar_chart:
 If you are unable to open the URL, I attached a screenshot of it below:
-
+    ---
     ![This is a screenshot of how the application looks like.](assets/images/password1.png)
     ---
-    ![This is a screenshot of when it is asking the questions for the password.](assets/images/password2.png)
+    ![This is a screenshot of one of the questions.](assets/images/password2.png)
     ---
-    ![This is a screenshot of the final password.](assets/images/password3.png)
+    ![This is a screenshot of how the finally result looks like.](assets/images/password3.png)
+    ---
     
 After you open the application, you will have to click the button that says "Generate Password", and then it is gonna ask you how long you want your password, then it is gonna ask you if you want uppercase, lowercase, numbers and symbols and finally it is gonna generate a random password with the group of characters that you asked for.
 
